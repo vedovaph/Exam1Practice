@@ -31,6 +31,11 @@ def main():
     run_test_problem1a()
     run_test_problem1b()
     run_test_problem1c()
+    x = 151
+    if x % 2==1:
+        print('30')
+    if x >= 100:
+        print('hello')
 
 
 def is_prime(n):
